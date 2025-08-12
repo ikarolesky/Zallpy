@@ -50,7 +50,7 @@ Como Rodar o Projeto
 
 1.  Clone este repositório:
 ```
-    git clone ([(https://github.com/ikarolesky/Zallpy.git](https://github.com/ikarolesky/Zallpy.git))
+    git clone https://github.com/ikarolesky/Zallpy.git
     cd Zallpy
 ``` 
 
