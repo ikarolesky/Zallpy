@@ -135,66 +135,18 @@ Path param `id`
 
 * * *
 
-Campos do cadastro
-------------------
+## Campos do cadastro
 
-Campo
+| Campo | Tipo | Obrigatório | Observações |
+| --- | --- | --- | --- |
+| nome | String | Sim | Nome completo do cooperado |
+| cpfCnpj | String | Sim | CPF (11 dígitos) ou CNPJ (14 dígitos), único |
+| dataNascimentoConstituicao | Date | Sim | Data de nascimento (CPF) ou constituição (CNPJ) |
+| rendaFaturamento | Decimal | Sim | Renda mensal (CPF) ou faturamento (CNPJ) |
+| telefone | String | Sim | Telefone válido padrão Brasil |
+| email | String | Não | Email válido (opcional) |
 
-Tipo
-
-Obrigatório
-
-Observações
-
-nome
-
-String
-
-Sim
-
-Nome completo do cooperado
-
-cpfCnpj
-
-String
-
-Sim
-
-CPF (11 dígitos) ou CNPJ (14 dígitos), único
-
-dataNascimentoConstituicao
-
-Date
-
-Sim
-
-Data de nascimento (CPF) ou constituição (CNPJ)
-
-rendaFaturamento
-
-Decimal
-
-Sim
-
-Renda mensal (CPF) ou faturamento (CNPJ)
-
-telefone
-
-String
-
-Sim
-
-Telefone válido padrão Brasil
-
-email
-
-String
-
-Não
-
-Email válido (opcional)
-
-* * *
+- - -
 
 Abordagens técnicas
 -------------------
