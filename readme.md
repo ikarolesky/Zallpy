@@ -49,10 +49,10 @@ Como Rodar o Projeto
 ### Passos para executar
 
 1.  Clone este repositório:
-
+```
     git clone ([(https://github.com/ikarolesky/Zallpy.git](https://github.com/ikarolesky/Zallpy.git))
     cd Zallpy
-    
+``` 
 
 2.  Estrutura básica de pastas:
 
