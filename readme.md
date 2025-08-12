@@ -169,5 +169,3 @@ Observações
 *   Erros de validação retornam mensagens claras para facilitar o uso.
 
 * * *
-
-Se precisar de ajuda para rodar, modificar ou expandir o projeto, estou à disposição!
