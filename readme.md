@@ -56,24 +56,26 @@ Como Rodar o Projeto
 
 2.  Estrutura básica de pastas:
 
-    /
-    ├── backend
-    │   ├── src
-    │   ├── Dockerfile
-    │   ├── pom.xml
-    │   └── ...
-    ├── frontend
-    │   ├── src
-    │   ├── Dockerfile
-    │   ├── package.json
-    │   └── ...
-    └── docker-compose.yml
-    
+```
+/
+├── backend
+│   ├── src
+│   ├── Dockerfile
+│   ├── pom.xml
+│   └── ...
+├── frontend
+│   ├── src
+│   ├── Dockerfile
+│   ├── package.json
+│   └── ...
+└── docker-compose.yml
+```    
 
 3.  Construir e subir os containers com Docker Compose:
 
-    docker-compose up --build
-    
+```
+docker-compose up --build
+```   
 
 4.  Acesse as aplicações:
 
@@ -81,59 +83,17 @@ Como Rodar o Projeto
 *   Backend API (REST): [http://localhost:8080/api/cooperados](http://localhost:8080/api/cooperados)
 
 * * *
+- - -
+## Rotas API Backend
 
-Rotas API Backend
------------------
-
-Método
-
-Endpoint
-
-Descrição
-
-Parâmetros/Body
-
-GET
-
-`/api/cooperados`
-
-Lista cooperados com filtros
-
-Query params: `nome`, `cpfCnpj`
-
-GET
-
-`/api/cooperados/{id}`
-
-Busca cooperado por ID
-
-Path param: `id`
-
-POST
-
-`/api/cooperados`
-
-Cria novo cooperado
-
-JSON no body com dados do cooperado
-
-PUT
-
-`/api/cooperados/{id}`
-
-Atualiza cooperado existente
-
-Path param `id`, JSON no body
-
-DELETE
-
-`/api/cooperados/{id}`
-
-Remove cooperado (exclusão lógica)
-
-Path param `id`
-
-* * *
+| Método | Endpoint | Descrição | Parâmetros/Body |
+| --- | --- | --- | --- |
+| GET | `/api/cooperados` | Lista cooperados com filtros | Query params: `nome`, `cpfCnpj` |
+| GET | `/api/cooperados/{id}` | Busca cooperado por ID | Path param: `id` |
+| POST | `/api/cooperados` | Cria novo cooperado | JSON no body com dados do cooperado |
+| PUT | `/api/cooperados/{id}` | Atualiza cooperado existente | Path param `id`, JSON no body |
+| DELETE | `/api/cooperados/{id}` | Remove cooperado (exclusão lógica) | Path param `id` |
+- - -
 
 ## Campos do cadastro
 
