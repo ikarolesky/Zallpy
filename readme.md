@@ -50,8 +50,8 @@ Como Rodar o Projeto
 
 1.  Clone este repositório:
 
-    git clone [<url-do-repositorio>](https://github.com/ikarolesky/Zallpy.git)
-    cd <nome-do-repositorio>(Zallpy)
+    git clone ([(https://github.com/ikarolesky/Zallpy.git](https://github.com/ikarolesky/Zallpy.git))
+    cd Zallpy
     
 
 2.  Estrutura básica de pastas:
