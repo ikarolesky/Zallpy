@@ -1,5 +1,3 @@
-  README - Cooperados body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; } h1, h2, h3 { color: #333; } pre { background: #f4f4f4; padding: 1rem; border-radius: 5px; overflow-x: auto; } code { font-family: Consolas, monospace; background: #eee; padding: 2px 5px; border-radius: 3px; } table { border-collapse: collapse; width: 100%; margin-bottom: 1.5rem; } th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; } th { background-color: #f0f0f0; } hr { border: none; border-top: 1px solid #ccc; margin: 2rem 0; } a { color: #0366d6; text-decoration: none; } a:hover { text-decoration: underline; } ul { margin-left: 1.5rem; }
-
 Cooperados - Sistema de Cadastro de Cooperados
 ==============================================
 
